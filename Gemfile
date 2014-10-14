@@ -47,3 +47,4 @@ gem 'haml'
 
 #javascript maintainance
 gem 'rails-assets-bootstrap'
+gem 'paloma'

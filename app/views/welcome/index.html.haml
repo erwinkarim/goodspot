@@ -2,10 +2,12 @@
 :javascript
 	function init(){
 		var mapOptions = {
-			center: new google.maps.LatLng(45.0,1),
-			zoom:8
+			center: new google.maps.LatLng(3.185,101.695),
+			zoom:10
 		};
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+		//get some co-ordinates for testings
 	};	
 	google.maps.event.addDomListener(window, 'load', init);
 #map{ :style => 'min-height:1000px;' }
