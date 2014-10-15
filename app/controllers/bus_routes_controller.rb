@@ -16,8 +16,8 @@ class BusRoutesController < ApplicationController
   # GET /bus_routes/1
   # GET /bus_routes/1.json
   def show
-		@bus_route = BusRoute.find(params[:id])
 
+		js :id => params[:id] 
 		respond_to do |format|
 			format.html
 			format.json { render json: JSON.parse(@bus_route.points) }
